@@ -15,12 +15,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon-32x32.png">
     <title>Blogr-landing-page</title>
+    <style>
+        #myDIV {
+          width: 100%;
+          padding: 50px 0;
+          text-align: center;
+          background-color: lightblue;
+          margin-top: 20px;
+        }
+        </style>
 </head>
 <body>
     <!-- mobile nav overlay start here -->
     <div id="myNav" class="overlay">
-        <img src="images/logo.svg" alt="blogr-logo" class="blogr-logo" style="margin-top:5%;">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt="icon-close"></a>
+        <!-- <img src="images/logo.svg" alt="blogr-logo" class="blogr-logo" style="margin-top:5%;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt="icon-close"></a> -->
         <div class="overlay-content">
             <div id="accordion">
                 <div class="card">
@@ -30,7 +39,7 @@
                             <p class="menu-headings">product
                                 <img src="images/icon-arrow-dark.svg" alt="icon-arrow-dark" class="arrow-down">
                             </p> 
-                            </button>
+                        </button>
                         </h5>
                     </div>
                     <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
@@ -86,7 +95,11 @@
                         </div>
                     </div>
                 </div>
-            </div>            
+            </div>    
+            <div class="registration">
+                <li class="login"><a href="#" class="link log">Login</a></li>
+                <button type="submit" class="button-signup"><a href="#" class="link login signup">Sign Up</a></button>
+            </div>        
         </div>
     </div>
     <!-- mobile nav overlay ends here -->
@@ -99,8 +112,11 @@
                 <div class="company-logo">
                     <img src="images/logo.svg" alt="company-logo" class="company-logo">
                 </div>
-                <span style="font-size:30px;cursor:pointer;" onclick="openNav()"><img src="images/icon-hamburger.svg" alt="icon-hamburger" class="icon-hamburger" id="icon-hamburger"></span>
-                <div class="nav first-navbar-list">
+                <div class="hamburger-change">
+                        <span id="icon-hamburger" onclick="openNav()"><img src="images/icon-hamburger.svg" alt="icon-hamburger"></span>
+                        <span id="icon-close" onclick="closeNav()"><img src="images/icon-close.svg" alt="icon-close"  id="icon-close"></span>
+                </div> 
+                <div class="nav first-navbar-list"> 
                    <ul class="lists">
                        <li class="dropdown"><a href="#" class="dropdown-btn">company<img src="images/icon-arrow-light.svg" alt="icon-arrow-light" class="caret-img"></a>
                         <div class="dropdown-content">
