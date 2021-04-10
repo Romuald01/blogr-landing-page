@@ -832,9 +832,10 @@ width: 100%;
     .overlay{
         margin-left: -2%;
     }
-    .img-editor{
+    .img-editor-mobile{
             height: 280px;
-            /* display: none; */
+          top:-5%;
+          margin-left:-37%;
     }
     .platform-head{
         width:85%;
@@ -857,6 +858,9 @@ width: 100%;
     }
 }
 @media screen and (max-width:320px){
+    .img-editor-mobile{
+        margin-left:-33%;
+    }
     .platform-head{
         width: 100%;
     }
