@@ -35,7 +35,7 @@ html{
 .navigation-bar{
     display: flex;
     justify-content: space-between;
-    font-weight: 400;
+    font-weight: 600;
     padding-top:5%;
 }
 .first-navbar-list{
@@ -54,7 +54,7 @@ html{
     border-radius:30px;
     padding: 8px 23px;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ html{
 }
 .platform-head{
     font-size:5.5rem;
-    font-weight: 500;
+    font-weight:600;
 }
 .platform-paragraph{
     font-size: 1.9rem;
@@ -138,6 +138,7 @@ html{
     font-weight:700;
     color:  hsl(0, 0%, 100%);
     border:none;
+    padding: 12px 10px;
 }
 .Learn-btn{
     border: 1px solid  rgb(255, 255, 255);
@@ -198,8 +199,7 @@ html{
      height: 60rem;
      top: -20%;
     position:absolute;
-   right: -18%;
-   /* display: none; */
+    right: -10%;
 } 
 .second-section-div{
     position: relative;
@@ -308,15 +308,13 @@ padding-top:5% ;
 }
 
 /* =======================MEDIA QUERY START HERE============================== */
-@media screen and (min-width:1366px) {
+@media screen and (max-width:1366px) {
     .img-editor{
-    right:-31%;
+  left: 32% !important;;
+  
     }
 }
 @media screen and (max-width:1440px){
-    .img-editor{
-        right: -25%;
-    }
     .img-fluid{
         margin-left: -11%;
     }
