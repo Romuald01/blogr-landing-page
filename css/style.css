@@ -5,13 +5,13 @@
 }
 body{
     background-color:hsl(240, 2%, 79%,0.2);
+    font-family:"Overpass",sans-serif;
 }
 .no-scroll{
     overflow: hidden;
 }
-
 html{
-    font-family:"Overpass",sans-serif;
+    font-family:"Ubuntu",sans-serif;
     font-size: 62.5%;
 }
 .list-link,
