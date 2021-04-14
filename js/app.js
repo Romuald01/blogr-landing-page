@@ -16,5 +16,5 @@ function closeNav() {
   document.body.classList.remove('no-scroll');
   $hamburgerIcon.style.display = 'block';
   $closeIconn.style.display = 'none';
-  
  } 
+
